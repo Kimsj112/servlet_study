@@ -1,0 +1,9 @@
+package com.example.app;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("/my-servlet")
+public class MyServlet extends HttpServlet {
+
+}

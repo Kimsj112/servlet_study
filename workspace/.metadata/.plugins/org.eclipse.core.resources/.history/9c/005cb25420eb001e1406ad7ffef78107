@@ -1,0 +1,9 @@
+package com.koreait.jsp;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("/output-jsp")
+public class OutputJspServlet extends HttpServlet {
+
+}

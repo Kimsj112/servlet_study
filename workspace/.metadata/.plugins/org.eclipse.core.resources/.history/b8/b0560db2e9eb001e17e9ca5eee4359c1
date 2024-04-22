@@ -1,0 +1,11 @@
+package com.mybatis.config;
+
+import org.apache.ibatis.session.SqlSessionFactory;
+
+public class MyBatisConfig {
+	private static SqlSessionFactory sessionFactory;
+	
+	static {
+		String resource = "./com/mybatis/config/config/xml";
+	}
+}

@@ -1,0 +1,9 @@
+package com.example.app.member;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+@WebServlet("*.me")
+public class MemberFrontController extends HttpServlet{
+
+}
